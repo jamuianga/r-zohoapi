@@ -1,9 +1,9 @@
-Package: RZoho
-Title: What the Package Does (One Line, Title Case)
+Package: RZohoAPI
+Title: An R Interface for Zoho API Data Manipulation
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Janio", "Muianga", , "janiodrey@gmail.com", role = c("aut", "cre"))
+Description: This R package provides an interface to interact with the Zoho API, enabling efficient data manipulation directly within the R environment.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
