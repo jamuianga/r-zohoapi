@@ -2,17 +2,17 @@
 % Please edit documentation in R/auth.R
 \name{get_access_token}
 \alias{get_access_token}
-\title{get_access_token}
+\title{Função para buscar o access token}
 \usage{
 get_access_token(client_id, client_secret, refresh_token)
 }
 \arguments{
-\item{client_id}{ID do Cliente Zoho}
+\item{client_id}{ID do Cliente}
 
-\item{client_secret}{secret code do Cliente Zoho}
+\item{client_secret}{secret code do Cliente}
 
-\item{refresh_token}{token para geração de access tokens}
+\item{refresh_token}{token usado para geração de access tokens}
 }
 \description{
-Retorna o access token do API Zoho
+O access token é usado para manipular dados no Zoho.
 }

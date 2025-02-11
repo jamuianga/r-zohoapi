@@ -1,6 +1,4 @@
-auth_env <- new.env()
-
-auth_env$BASE_URL <- "https://accounts.zoho.com"
+BASE_URL <- "https://accounts.zoho.com"
 
 #' Função para buscar o access token
 #'
@@ -14,7 +12,7 @@ auth_env$BASE_URL <- "https://accounts.zoho.com"
 #' @export
 get_access_token <- function(client_id, client_secret, refresh_token){
   # url para fazer o refresh token
-  url <- glue("{auth_env$BASE_URL}/oauth/v2/token?refresh_token={refresh_token}&client_id={client_id}&client_secret={client_secret}&grant_type=refresh_token")
+  url <- glue("{BASE_URL}/oauth/v2/token?refresh_token={refresh_token}&client_id={client_id}&client_secret={client_secret}&grant_type=refresh_token")
 
   # request the access token
   response_data <- request(url) |>
