@@ -1,6 +1,6 @@
 Package: RZohoAPI
 Title: An R Interface for Zoho API Data Manipulation
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Janio", "Muianga", , "janiodrey@gmail.com", role = c("aut", "cre"))
 Description: This R package provides an interface to interact with the Zoho API, enabling efficient data manipulation directly within the R environment.
